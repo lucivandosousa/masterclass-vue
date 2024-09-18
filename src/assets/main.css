@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+  background-color: #000000;
+  color: #e0d9d9;
+}
+
+#app {
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+header {
+  font-size: 2em;
+  color: #ffffff;
+  margin-bottom: 20px;
+  background-color: #008000;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: #0e7e28;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: large;
+}
+
+button:hover {
+  background-color: #13b939;
+}
+
+input[type="text"],
+input[type="number"] {
+  margin-bottom: 20px;
+  border: 2px solid #13b939;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #ffffff;
+}
